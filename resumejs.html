@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var name1 = document.createElement("h1");
+        name1.innerText = 'MAHESH MANDHA';
+        name1.style.textAlign = 'center';
+        document.body.appendChild(name1); 
+
+        
+       
+
+        var nav = document.createElement('ul');
+nav.innerHTML = '<li>maheshmittu1555@gmail.com</li><li>Bhongir</li><li>9381987179</li>';
+nav.style.display = 'flex';
+ 
+nav.style.justifyContent = 'center';
+nav.style.listStyle = 'none';
+nav.style.padding = '0';
+nav.style.margin = '0';
+nav.style.gap = '30px'; 
+document.body.appendChild(nav);
+
+var objectiveHeading = document.createElement('h2');
+objectiveHeading.innerText = 'OBJECTIVE'; 
+objectiveHeading.style.background = 'lightblue'; 
+document.body.appendChild(objectiveHeading); 
+
+
+var style = document.createElement('style');
+style.innerHTML = `
+    h2:hover {
+        color: red; 
+    }
+`;
+document.head.appendChild(style);
+
+
+        var obj = document.createElement('p');
+        obj.innerText = 'Motivated MCA student with expertise in programming languages like Java, Python, and C++. Skilled in web and mobile app development using frameworks such as React and Spring Boot. Experienced in database management, machine learning, and cloud computing through academic projects. ';
+        obj.innerText += 'Passionate about leveraging technical skills to solve real-world challenges.';
+        document.body.appendChild(obj);
+
+
+        var EDUCATION = document.createElement('h2');
+        EDUCATION.innerText=' EDUCATION';
+        EDUCATION.style.background = 'lightblue'
+        document.body.appendChild( EDUCATION)
+
+        var Edu_c = document.createElement('h4');
+        Edu_c.innerText=' UNIVERSITY COLLEGE OF SCIENCE SAIFABAD';
+        document.body.appendChild(Edu_c);
+
+        var E_data = document.createElement('p');
+        E_data.innerText='Masters of computer applications(MCA)   2022 – 2024'
+        document.body.appendChild(E_data);
+
+        var b_cgpa = document.createElement('p');
+        b_cgpa.innerText = 'CGPA: 8.5';
+        document.body.appendChild(b_cgpa);
+
+        var  PROJECTS =document.createElement('h2');
+        PROJECTS.innerText=' PROJECTS';
+        PROJECTS.style.background='lightblue'
+        document.body.appendChild( PROJECTS);
+
+        var prj_data = document.createElement('p');
+        prj_data.innerHTML = '<b>TELECOM CHURN PREDICTION USING MACHINE LEARNING</b>'
+        document.body.appendChild(prj_data);
+
+        var prj1_ul = document.createElement('ul');
+        prj1_ul.innerHTML='<ul><li>Developed a predictive analytics model aimed at identifying at-risk customers in the telecom sector, employing advanced machine learning techniques. The project focused on customer retention by analyzing customer behavior, demographics, and usage patterns to predict churn. Implemented algorithms including Random Forest, Decision Tree, and Support Vector Machines (SVM), achieving a high level of predictive accuracy and actionable insights. Conducted data preprocessing, feature engineering, and performance evaluation using metrics like precision, recall, F1 score, and confusion matrix. The project highlights a robust solution for enhancing customer retention, reducing revenue loss, and optimizing marketing strategies in a competitive industry</li><li>Coding: -python. Libraries:-pandas, matplotlib. Tools:-powerbi. Database:-SQL.</li></ul>';
+        document.body.appendChild(prj1_ul)
+
+        
+        var  SKILLS = document.createElement('h2');
+        SKILLS.innerText = 'SKILLS';
+        SKILLS.style.background='lightblue'
+        document.body.appendChild(SKILLS);
+
+
+        var skill1 = document.createElement('p');
+        skill1.innerHTML ='<b> UI Technologies: </b>HTML, CSS, Javascript, Bootstrap';
+        document.body.appendChild(skill1);
+
+        var skill2 = document.createElement('p');
+        skill2.innerHTML ='<b> Programming Languages </b>Python';
+        document.body.appendChild(skill2);
+
+
+        var skill3 = document.createElement('p');
+        skill3.innerHTML ='<b> Database:  </b>MySQLl';
+        document.body.appendChild(skill3);
+
+        var skill4 = document.createElement('p');
+        skill4.innerHTML ='<b>Interpersonal Skills: </b>Communication, Presentation, Problem-Solving';
+        document.body.appendChild(skill4)
+
+
+        var CERTIFICATIONS = document.createElement('h2');
+        CERTIFICATIONS.innerText = 'CERTIFICATIONS';
+        CERTIFICATIONS.style.background='lightblue'
+        document.body.appendChild(CERTIFICATIONS);
+
+    
+        var crt = document.createElement('p');
+        crt.innerText = '4-Week Virtual Internship Program in PYTHON at CodeSoft';
+        document.body.appendChild(crt);
+
+
+    </script>
+</body>
+</html>
